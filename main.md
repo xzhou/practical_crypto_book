@@ -1,5 +1,7 @@
+# Programmer's Handbook on Crypto
 
-# Some general guide lines:
+
+##Some general guide lines:
 
 1.	It is not recommended to re-implement known protocol, for example, SSL or https. It is better to use existing libraries or schemes provided by the operating system. 
 2.	If you have to do so, please send the design to security team for careful review. 
