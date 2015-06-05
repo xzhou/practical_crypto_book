@@ -10,4 +10,3 @@
 * [Public Key Cryptography](chapters/asymmetric_key.md)
 * [Common pitfalls](chapters/pitfalls.md)
 
-
