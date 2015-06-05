@@ -8,7 +8,7 @@
 
 ### 1. Key Derivation (how to generate keys from passwords?):
 
-In many Samsung products, we need to generate encryption keys for file system encryption or sensitive data protection from user’s password. The best way to generate keys from password is using standard Password-Based Key Derivation Functions 2(PBKDF2) to generate keys. Depending on the usage scenario, we may also want to mix the password with some random salt before feeding them into the KDF functions. Android provided PBEKeySpec class for this kind of job. 
+In many situations, we need to generate encryption keys for file system encryption or sensitive data protection from user’s password. The best way to generate keys from password is using standard Password-Based Key Derivation Functions 2(PBKDF2) to generate keys. Depending on the usage scenario, we may also want to mix the password with some random salt before feeding them into the KDF functions. Android provided PBEKeySpec class for this kind of job. 
 How many rounds for PBKDF2? This is depends on the device capability. More rounds, more secure. But we should not let the user wait for too long after password entering. 
 Authentication:
 Authentication is an activity to confirm the identity of an individual or an entity. In general, authentication is based on three factors: 
@@ -16,7 +16,7 @@ Authentication is an activity to confirm the identity of an individual or an ent
 2.	What he is? (finger print, iris)
 3.	What he knows. (password, private key)
 Here are some techniques to do authentication: 
-1.	User name and password. Most online system uses this method. However, it is important to protect the password. When login, it is recommended use HTTPs to encrypt the entire login message and all following messages exclusively using HTTPs or SSL. Do NOT partially encrypts a message because if not handled properly, it may subject to replay attack, MITM attacks. Like in our previous KLM design, we only partially encrypt the message and vulnerable to MITM attacks. (KVA257, KVA258).
+1.	User name and password. Most online system uses this method. However, it is important to protect the password. When login, it is recommended use HTTPs to encrypt the entire login message and all following messages exclusively using HTTPs or SSL. Do NOT partially encrypts a message because if not handled properly, it may subject to replay attack, MITM attacks. Like in our previous KLM design, we only partially encrypt the message and vulnerable to MITM attacks.
 2.	Certificate (use public key to verify the identity). This is mostly used to verify the server’s identity. For example, in https, the browser uses the certificate chain to verify the server’s identity. The biggest problem with certificate based authentication is programmer may not correctly verify the certificate chain. So it is recommended to use system provided trust manager to do the verification. See KVA346 for examples of failure. 
 Typical attacks and defense:
 Replay attack: Include timestamp or sequence number or nonce in the message. Then encrypt and sign or HMAC the message. 
@@ -61,7 +61,7 @@ Future works on this document
 Appendix
 Here is the original request (important parts in bold red): 
 Hi Xiaoyong, Kunal,
-You can find in the thread of emails below details of the discussion with the KNOX licensing management development team about the resolution of MITM vulnerabilities in the currently deployed ELM/KLM client-server protocols. Those vulnerabilities are being tracked under tickets KVA-257 and KVA-258. SIDI KVA is already handling the resolution of those tickets/vulnerabilities.
+You can find in the thread of emails below details of the discussion with the KNOX licensing management development team about the resolution of MITM vulnerabilities in the currently deployed ELM/KLM client-server protocols. Those vulnerabilities are being tracked under tickets  and KVA-258. SIDI KVA is already handling the resolution of those tickets/vulnerabilities.
 What we need your help is with the request for additional security advise from the licensing development team on the architecture and design for the evolution and future releases their components supporting what seems to be their roadmap. This request is summarized by the questions from 2 emails from Salva I reproduced below.
 Please let me know if you have any questions.
 Thanks, Jose
