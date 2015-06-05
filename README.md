@@ -1,0 +1,1 @@
+This book is try to give a very practical, hands-on guildlins for software developers to correctly write crypto related code. 
