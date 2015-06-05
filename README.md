@@ -1,1 +1,1 @@
-This book is try to give a very practical, hands-on guildlins for software developers to correctly write crypto related code. We try to give sample code so the developer can refer to them and use them in their own projects. 
+This book gives a practical, hands-on guidelines for software developers to write correct crypto related code. We try to give sample code so the developer can refer to them and use them in their own projects. 
