@@ -1,6 +1,6 @@
 # Public Key Cryptography
 
  
-## RSA crypto system
+## RSA cryptography
 
 ## Elliptic curve cryptography
