@@ -1,7 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Chapter 1 Key Derivation](chapters/key_derivation.md)
-* [Chapter 2 Authentication](chapters/authentication.md)
-* [Chapter 3 Certificates](chapters/certificats.md)
+* [Key Derivation](chapters/key_derivation.md)
+* [Authentication](chapters/authentication.md)
+* [Certificates](chapters/certificats.md)
+* [Symmetric Key Encryption](chapters/symmetric_key_enc.md)
 
