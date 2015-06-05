@@ -9,5 +9,6 @@
 * [Public Key Cryptography](chapters/asymmetric_key.md)
 * [Certificates](chapters/certificats.md)
 * [Digital Signature](chapters/signature.md)
+* [PKCS standard](chapters/pkcs.md)
 * [Common pitfalls](chapters/pitfalls.md)
 
