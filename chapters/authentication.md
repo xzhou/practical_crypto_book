@@ -1,4 +1,4 @@
-# Chapter 2 Authentication
+#Authentication
 
 Authentication:
 Authentication is an activity to confirm the identity of an individual or an entity. In general, authentication is based on three factors: 
