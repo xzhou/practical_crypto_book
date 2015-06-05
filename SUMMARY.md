@@ -4,6 +4,7 @@
 * [Randomness](chapters/randomness.md)
 * [Symmetric Key Cryptography](chapters/symmetric_key_enc.md)
 * [Key Derivation](chapters/key_derivation.md)
+* [Hash Function]
 * [Authentication](chapters/authentication.md)
 * [Certificates](chapters/certificats.md)
 
