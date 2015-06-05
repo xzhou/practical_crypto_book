@@ -7,5 +7,7 @@
 * [Hash Function](chapters/hash.md)
 * [Authentication](chapters/authentication.md)
 * [Certificates](chapters/certificats.md)
+* []
+* [Common pitfalls](chapters/pitfalls.md)
 
 
