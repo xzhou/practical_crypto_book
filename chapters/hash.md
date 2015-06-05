@@ -1,3 +1,3 @@
-# Hash Function
+# Secure Hash Function
 
 
