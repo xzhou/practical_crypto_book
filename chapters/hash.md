@@ -3,10 +3,13 @@
 ## SHA family
 
 
-## Exmaple
+## Examples
 
-C(OpenSSL)
+C (OpenSSL)
 ```
+#include <openssl/sha1.h>
+
+// Initialize Digest
 
 ```
 
